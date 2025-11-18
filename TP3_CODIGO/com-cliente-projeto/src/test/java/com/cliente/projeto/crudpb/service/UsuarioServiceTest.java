@@ -21,7 +21,7 @@ class UsuarioServiceTest {
     @Mock
     private UsuarioRepository usuarioRepository;
 
-    @InjectMocks // Injeta o mock no construtor do UsuarioService
+    @InjectMocks 
     private UsuarioService usuarioService;
 
     @Test
